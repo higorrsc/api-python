@@ -1,0 +1,30 @@
+# Todos os livros
+GET http://localhost:5000/livros
+
+###
+
+# Livro por id
+GET http://localhost:5000/livros/2
+
+###
+
+# Atualizar livro por ID
+PUT http://localhost:5000/livros/3
+{
+    "autor": "Hábitos Gerais",
+    "id": 3,
+    "título": "James Clear"
+}
+###
+
+# Criar livro
+POST http://localhost:5000/livros
+{
+    "autor": "Eu mesmo",
+    "id": 4,
+    "título": "Um grande livro"
+}
+###
+
+# Apagar livro por ID
+DELETE http://localhost:5000/livros/2
