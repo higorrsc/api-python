@@ -9,7 +9,9 @@ GET http://localhost:5000/livros/2
 ###
 
 # Atualizar livro por ID
-PUT http://localhost:5000/livros/3
+PUT http://localhost:5000/livros/3 HTTP/1.1
+content-type: application/json
+
 {
     "autor": "Hábitos Gerais",
     "id": 3,
@@ -18,7 +20,9 @@ PUT http://localhost:5000/livros/3
 ###
 
 # Criar livro
-POST http://localhost:5000/livros
+POST http://localhost:5000/livros HTTP/1.1
+content-type: application/json
+
 {
     "autor": "Eu mesmo",
     "id": 4,
