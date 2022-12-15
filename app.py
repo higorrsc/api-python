@@ -5,7 +5,7 @@ app = Flask(__name__)
 livros = [
     {
         'id': 1,
-        'titulo': 'O Senhor dos Anéis - A Sociedade do Anel',
+        'titulo': 'O Senhor dos Aneis - A Sociedade do Anel',
         'autor': 'J.R.R Tolkien'
     },
     {
@@ -16,7 +16,7 @@ livros = [
     {
         'id': 3,
         'titulo': 'James Clear',
-        'autor': 'Hábitos Atômicos'
+        'autor': 'Hábitos Atomicos'
     },
 ]
 
