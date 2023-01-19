@@ -15,7 +15,7 @@ content-type: application/json
 {
     "autor": "Habitos Gerais",
     "id": 3,
-    "título": "James Clear"
+    "titulo": "James Clear"
 }
 ###
 
@@ -26,7 +26,7 @@ content-type: application/json
 {
     "autor": "Eu mesmo",
     "id": 4,
-    "título": "Um grande livro"
+    "titulo": "Um grande livro"
 }
 ###
 
